@@ -1,0 +1,74 @@
+body{
+    background-color:blue;
+    font-family: Arial, sans-serif;
+}
+
+.header-hobi{
+    background-color:aquamarine;
+    color:cadetblue;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: radius 15px;
+    text-align:center;
+    box-shadow: 2px 2px 10px greenyellow;
+
+}
+.tentang-hobi{
+    background-color: chartreuse;
+    color:darkslategray;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px red;
+}
+
+.perlengkapan-box{
+     background-color: rgb(200, 170, 20);
+    color:rgb(0, 255, 255);
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(14, 1, 19);
+}
+
+/*aturan gaya tabel*/
+.tabel-hobi{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.tabel-hobi th, .tabel-hobi td{
+    border: 1px solid #333333;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabel-hobi th{
+    background-color: #c8e6c9;
+}
+
+.galeri-hobi{
+     background-color: rgb(228, 226, 218);
+    color:rgb(0, 255, 255);
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(14, 1, 19);
+    text-align: center;
+}
+
+.bungkus-foto{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+}
+
+.bungkus-foto img{
+    border-radius:10px;
+    box-shadow:1px 1px 5px gray;
+}
